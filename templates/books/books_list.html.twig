@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carti</title>
+</head>
+<body>
+
+    <h1>Carti</h1>
+   
+        <table>
+            {% for Books in books %}
+    
+                <tr>
+                    <th>{{ Books.title }} </th>
+                    <th>{{ Books.author }} </th>
+                    <th>{{ Books.price }} </th>
+                    <th>{{ Books.description }} </th>
+                </tr>
+
+            {% endfor %}  
+        </table>  
+
+     
+
+        
+
+
+</body>
+</html>
